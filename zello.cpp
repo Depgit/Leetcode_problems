@@ -5,5 +5,6 @@ signed main(){
   int64_t t;cin>>t;
   while(t--){
     string a,b;cin>>a>>b;cin.ignore();
+    getline(cin,a);
   }
 }
